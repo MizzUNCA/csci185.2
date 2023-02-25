@@ -56,6 +56,7 @@ body {
     min-height: 400px;
     opacity: 0.2;
     transition: visibility 0s 2s, opacity 2s linear;
+    color: #BECDE4;
 }
 
 .quizzes {
@@ -67,6 +68,7 @@ body {
     min-height: 400px;
     opacity: 0.2;
     transition: visibility 0s 2s, opacity 2s linear;
+    color: #BECDE4;
 }
 
 .tutorials {
@@ -78,6 +80,7 @@ body {
     min-height: 400px;
     opacity: 0.2;
     transition: visibility 0s 2s, opacity 2s linear;
+    color: #BECDE4;
 }
 
 .lectures {
@@ -89,6 +92,7 @@ body {
     min-height: 400px;  
     opacity: 0.2;
     transition: visibility 0s 2s, opacity 2s linear;
+    color: #BECDE4;
 }
 
 .homework:hover {
