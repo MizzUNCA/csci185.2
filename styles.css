@@ -95,6 +95,32 @@ body {
     color: #BECDE4;
 }
 
+
+/* .homework li {
+    display: none;
+}
+
+.homework li:hover {
+    display: block;
+} */
+
+/* a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+
+}
+  
+a:hover,
+a:focus {
+    background-color: #fff;
+    color: #333;
+} */
+
+
 .homework:hover {
     opacity: 1;
     transition: opacity 1s linear;
