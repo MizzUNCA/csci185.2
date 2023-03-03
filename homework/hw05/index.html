@@ -38,22 +38,22 @@
     <section id="projects">
         <h2>Projects</h2>
         <div class="project-holder">
-            <section class="card1">
+            <section class="card1 card">
                 <img src="https://picsum.photos/id/1061/300/200" alt="image description 1" />
                 <h3>Name of Project</h3>
                 <p>Ipsum lorem dolor aliquam ante commodo magna sed accumsan.</p>
             </section>
-            <section class="card2">
+            <section class="card2 card">
                 <img src="https://picsum.photos/id/1015/300/200" alt="image description 2" />
                 <h3>Name of Project</h3>
                 <p>Ipsum lorem dolor aliquam ante commodo magna sed accumsan.</p>
             </section>
-            <section class="card3">
+            <section class="card3 card">
                 <img src="https://picsum.photos/id/572/300/200" alt="image description 3" />
                 <h3>Name of Project</h3>
                 <p>Ipsum lorem dolor aliquam ante commodo magna sed accumsan.</p>
             </section>
-            <section class="card4">
+            <section class="card4 card">
                 <img src="https://picsum.photos/id/573/300/200" alt="image description 4" />
                 <h3>Name of Project</h3>
                 <p>Ipsum lorem dolor aliquam ante commodo magna sed accumsan.</p>
@@ -66,18 +66,18 @@
         <div class="contact-details">
             <form method="post" action="#">
                 <div class="row row1">
-                    <input type="text" name="name" id="name" placeholder="Name"/>
-                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="text" name="name" id="name" placeholder="Name" aria-label="Name"/>
+                    <input type="email" name="email" id="email" placeholder="Email" aria-label="Email"/>
                 </div>
                 <div class="row">
-                    <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                    <textarea name="message" id="message" placeholder="Message" rows="4" aria-label="Message"></textarea>
                 </div>
                 <div class="row">
-                    <input id="submit" type="submit" value="Send Message">
+                    <input id="submit" type="submit" value="Send Message" aria-label="Send Message">
                 </div>
             </form>
             <section id="contact-info">
-                <div class="row">
+                <div id="address" class="row">
                     <i class="fa-solid fa-house-chimney"></i>
                     <p>
                         1234 Somewhere Rd. <br />
@@ -85,13 +85,13 @@
                         United States
                     </p>
                 </div>
-                <div class="row">
+                <div id="phone" class="row">
                     <i class="fa-solid fa-mobile-screen"></i>
                     <p>
                         000-000-0000
                     </p>
                 </div>
-                <div class="row">
+                <div id="mail" class="row">
                     <i class="fa-solid fa-envelope"></i>
                     <p>
                         hello@gmail.com

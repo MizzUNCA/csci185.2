@@ -1,14 +1,17 @@
 1. What corrections did you have to make?
 
-Your answers here.
+The first correction I had to make was give the various images on my website an alt tag/description.
+The second issue I had to fix was adding aria-label to all of the form-controls within the contact section.
+The third issue I had to fix was changing adding the language attribute at the top of my html document so that the web browser knows my website is written in English.
+The last issue I had to fix was changing the various colors on the website so that there would be no contrast errors.
 
-1. Do you think your website is usable if you turn off the CSS? Why or why not?
+2. Do you think your website is usable if you turn off the CSS? Why or why not?
 
-Your answers here.
+I think my website would still technically be usable if I turn off the CSS because the CSS only deals with the styling of the website. This means that the html code should still be there and therefore should still appear, but the only thing that won't appear is the stylistic changes I made through CSS.
 
-1. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
 
-Your answers here.
+Yes, without the use of the mouse, you can tab to the navigation links at the top of the screen, and navigate to the different buttons at the contact section.
 
 
 
